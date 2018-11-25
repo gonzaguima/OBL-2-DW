@@ -1,0 +1,242 @@
+/*estilos globales*/
+* { 
+    margin: 0; 
+    padding: 0; 
+}
+body {
+    font-family: 'Space Mono', monospace;
+    background-color: 	#676767;
+    color: #ffffff;
+    margin: 0;
+    height: 100%;
+}
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input:invalid {
+    border: 1px dashed red;
+  }
+  input:valid {
+    border: 1px solid green;
+  }
+.login div {
+    padding: 30px;
+    border: 1px solid #ffffff;
+    margin-top: 50px;
+}
+input[type=submit]{
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+}
+h2{
+    color: #008080;
+}
+.super{
+    font-size: 1.5em;
+    color: #b6b6b6;
+    font-family: 'Bungee', cursive;
+}
+/*estilos login*/
+.login{
+    margin: auto;
+    width: 30%;
+}
+.login h1{
+    font-family: 'Bungee', cursive;
+    font-size: 3em;
+    text-align: center;
+}
+.login h3{
+    font-size: 1em;
+    color: 	#b6b6b6;
+}
+
+/*estilos dashboard*/
+header{
+    background-color: #000000;
+    height: 50px;
+    padding: 25px;
+    border-bottom: 1px solid #b6b6b6;
+}
+header h1{
+    float: left;
+}
+header span{
+    float: right;
+    vertical-align: middle;
+}
+i
+{
+    margin: 10px;
+    font-size: 1.4em;
+}
+i:hover{
+    color: #ff7f50;
+}
+
+a:link, a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+nav{
+    float: left;
+    background-color: #000000;
+    padding: 10px;
+    margin-right: 50px;
+    width: 15%;
+    height: 1000px;
+    display: block;
+}
+nav li{
+    list-style: none;
+    margin: 20px 10px 20px 0;
+    text-align:center;
+}
+ a:hover{
+    color: #ff7f50;
+}
+.selected{
+    color: #ff7f50;
+    background-color: #b6b6b6;
+}
+.wrap{
+    margin: 30px;
+}
+.bien{
+    color: green;
+}
+.mal{
+    color: #f6546a;
+}
+.contenido{
+    display: block;
+    margin-top: 20px;
+    float: left;
+    width: 60%;
+}
+.bloque{
+    background-color: #b6b6b6;
+    margin: 5px;
+    padding: 15px;
+    text-align: center;
+}
+.bloque img{
+    width: 100px;
+    height: auto;
+    object-fit: contain;
+
+}
+.bloque h2{
+    margin-bottom: 40px;
+}
+.buscados{
+width: 94%;
+}
+.buscados img{
+    width: 100px;
+}
+figure{
+    margin: 0 20px;
+    text-align: center;
+}
+.buscados figure{
+    display: inline-block;
+}
+figure img{
+    float: left;
+}
+figure figcaption{
+    margin-top: 10px;
+}
+.subidos{
+    width: 60%;
+    float: left;
+}
+.subidos figure{
+    display: block;
+    margin-top: 100px;
+}
+.subidos figcaption{
+    vertical-align: middle;
+}
+.subidos p{
+    float: right;
+}
+.subidos h3{
+    display: inline;
+}
+.registro{
+    width: 30%;
+    float: left;
+}
+.registro h3, .subidos h3, .buscados h3{
+    color: #676767;
+    margin-top: 20px;
+}
+.alerta{
+    margin-top: 25px;
+    float: right;
+    width: 15%;
+    margin-right: 40px;
+}
+.alerta img{
+    width: 90%;
+}
+/*estilos listado*/
+div input[type="submit"], div input[type="search"]{
+    width: 200px;
+    border-style: none;
+}
+.buscar{
+    float: right;
+    margin-right: 40px;
+}
+.buscar i{
+    vertical-align: middle;
+}
+.listado{
+    display: block;
+    margin-top: 1px;
+    float: left;
+    width: 75%;
+    columns: 5 auto;
+}
+
+.listado p{
+    margin-bottom: 60px;
+}
+.listado img{
+    height: 100px;
+}
+.listado:first-child p{
+    color: #008080;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/*estilos registro*/
+
+.bloque input{
+    width: 500px;
+}
+.izq{
+    float: left;
+    width: 40%;
+    height: 600px;
+    text-align: left;
+}
+.der{
+    text-align: left;
+}
+.der input[type="radio"], .der input[type="checkbox"]{
+    width: 30px;
+}
+textarea{
+    width: 500px;
+}
+
+
