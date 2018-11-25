@@ -83,6 +83,9 @@ border: 0;
     margin-top: 30px;
 }
 
+.round img{
+    border-radius: 50%;
+}
 
 .resaltado{
     background-color: slategrey;
@@ -127,6 +130,9 @@ figure{
  /*estilos sorteo*/
 figure img{
     width: 100%;
+}
+.sorteo{
+    margin-bottom: 20px;
 }
 /*estilo footer*/
 .footer{
