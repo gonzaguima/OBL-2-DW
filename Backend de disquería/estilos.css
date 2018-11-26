@@ -3,12 +3,15 @@
     margin: 0; 
     padding: 0; 
 }
+html{
+    height: 100vh;
+}
 body {
     font-family: 'Space Mono', monospace;
     background-color: 	#676767;
     color: #ffffff;
     margin: 0;
-    height: 100%;
+    height: 100vh;
 }
 input{
     width: 100%;
@@ -58,7 +61,7 @@ h2{
 /*estilos dashboard*/
 header{
     background-color: #000000;
-    height: 50px;
+    height: 10vh;
     padding: 25px;
     border-bottom: 1px solid #b6b6b6;
 }
@@ -88,7 +91,7 @@ nav{
     padding: 10px;
     margin-right: 50px;
     width: 15%;
-    height: 1000px;
+    height: 120vh;
     display: block;
 }
 nav li{
