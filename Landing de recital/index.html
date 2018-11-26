@@ -4,31 +4,59 @@
     <!-- meta -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
+    <!--CSS -->
+    <link rel="icon"  type="image/png" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Fruktur|Work+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="estilos.css" >
     <title>Montevideo Rock</title>
   </head>
   <body>
+      <!-- header -->
     <section>
-        <article>
-            <div class="container-fluid" id="top">
-                    <header class="nav top align-items-center justify-content-center">
-                    <img src="img/mvdR_logo.jpg" alt="logo">
+        <div class="container-fluid" id="top">
+                    <header class="nav top align-items-center">
+                    <!-- logo -->
+                    <img src="img/mvdR_logo.jpg" alt="logo" class="col-xs-1 left">
+                    <!-- titulo -->              
+                    <h1 class="d-none d-xs-none d-sm-block center">El mejor festival en Montevideo</h1>
+                    <!-- menu hamburguesa -->    
+                    <nav class="navbar navbar-expand-lg navbar-dark d-none d-sm-none d-block d-xs-block ml-auto">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                              <a class="nav-link" href="#info2">Información<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#bandas2">Bandas</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#sorteo2">Inscripción a sorteo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#novedades2">Novedades</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </nav>
+                    
                     </header>
             </div>
-            <div class="container menu">
+            <!-- menu resolucion grande -->
+            <div class="container menu d-none d-xs-none  d-sm-block">
                     <nav class="nav nav-pills nav-fill">
-                        <a class="nav-item nav-link" href="#info">Información</a>
-                        <a class="nav-item nav-link" href="#bandas">Bandas</a>
-                        <a class="nav-item nav-link" href="#sorteo">Inscripción a sorteo</a>
-                        <a class="nav-item nav-link" href="#novedades">Novedades</a>
+                        <a class="nav-item nav-link col-md-3 col-sm-6" href="#info">Información</a>
+                        <a class="nav-item nav-link col-md-3 col-sm-6" href="#bandas">Bandas</a>
+                        <a class="nav-item nav-link col-md-3 col-sm-6" href="#sorteo">Inscripción a sorteo</a>
+                        <a class="nav-item nav-link col-md-3 col-sm-6" href="#novedades">Novedades</a>
                     </nav>
             </div>
-        </article>
-        <article>
-            <div class="container-fluid">
+            <!-- carousel -->
+        <div class="container-fluid d-none d-xs-none d-sm-block">
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -44,6 +72,7 @@
                             <img class="d-block w-100" src="img/mvdR_04.jpg" alt="concierto">
                         </div>
                     </div>
+                    <!-- controles carousel -->
                     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="sr-only">Anterior</span>
@@ -54,83 +83,92 @@
                     </a>
                 </div>
             </div>
-        </article>
-    </section>
+        </section>
     <section>
-        <div class=" col-lg-12 col-xs-0 separador" id="info"><h2>Información</h2></div>
-        <article class="container informacion posicion">
-            <img src="img/info_01.jpg" alt="gente disfrutando" class="col-md-5 left">
-            <div class="col-md-4 left">
+        <!-- seccion informacion -->
+        <div class="d-none d-xs-none d-sm-block separador clearfix" id="info"><h2>Información</h2></div>
+        <h2 class="d-none d-sm-none d-block d-xs-block" id="info2">Información</h2>
+        <article class="container informacion posicion clearfix">
+            <!-- imagen seccion informacion -->
+            <img src="img/info_01.jpg" alt="gente disfrutando" class="col-lg-5 col-md-7 d-none d-sm-none d-md-block  d-block  d-xs-block left ">
+            <div class="col-lg-4 col-md-5 left">
+                <!-- textos informacion -->
                 <h3>FESTIVAL POR LA CONVIVENCIA</h3>
                 <p>Los días 10, 17 y 18 de noviembre en la Rural del Prado (Lucas Obes 1011) se realizarán dos festivales musicales que celebran la convivencia en nuestra ciudad: Montevideo Rock y Montevideo Tropical.
+                </p>
+                <p class="d-xl-block d-md-none">    
                     Ambos eventos forman parte de los Festivales por la Convivencia, iniciativa llevada adelante por nuestra Prosecretaría General en el marco de las actividades de #MontevideoConvivencia, que buscan valorizar la ciudad y sus espacios a través de diferentes expresiones artísticas.
-                    
                 </p>
             </div>
-            <div class="col-md-3 left resaltado">
-                <h3>CONSIDERACIONES</h3>
+            <!-- consideraciones informacion -->
+            <div class="col-lg-3 col-md-5 left resaltado d-none d-xs-none d-md-block left ">
+                <p>CONSIDERACIONES</p>
                 <dl>
                     <dt>No se permite</dt>
-                    <dl>Ingreso de pirotecnia</dl>
+                    <dd>Ingreso de pirotecnia</dd>
                 </dl>
                 <dl>
                     <dt>Se quitarán en la puerta</dt>
-                    <dl>Elementos peligrosos</dl>
+                    <dd>Elementos peligrosos</dd>
                 </dl>
                 <dl>
                     <dt>Se controlará</dt>
-                    <dl>El ingreso de cámara de fotos y vídeo</dl>
+                    <dd>El ingreso de cámara de fotos y vídeo</dd>
                 </dl>
-                <dl>
-                    <dt>Derechos</dt>
-                    <dl>El evento puede ser filmado, por lo cual el público asistente cede sus derechos de imágen</dl>
+                <dl class="d-lg-block d-none d-md-none">
+                    <dt >Derechos</dt>
+                    <dd>El evento puede ser filmado, por lo cual el público asistente cede sus derechos de imágen</dd>
                 </dl>
-                <dl>
+                <dl class="d-lg-block d-none d-md-none">
                     <dt>Ingreso</dt>
-                    <dl>Entrada por Pelossi</dl>
+                    <dd>Entrada por Pelossi</dd>
                 </dl>
             </div>
         </article>
-        <article class="container clearfix round">
+        <!-- datos informacion -->
+        <article class="container clearfix round d-none d-xs-none d-sm-block">
             <h3>Detalles</h3>
-            <div class="col-md-4 left">
+            <div class="col-lg-4 col-md-6  col-sm-6 left">
                 <figure data-toggle="popover"  data-content="Ubicación céntrica!">
-                    <img src="img/icon1.jpg" alt="lugar">
+                    <img src="img/icon1.jpg" alt="lugar" class="left">
+                    <figcaption class="left">
+                        <dl>
+                            <dt>¿Dónde?</dt>
+                            <dd>Rural del Prado (acceso por Avenida Buschental)</dd>
+                        </dl>
+                    </figcaption>
                 </figure>
-                <figcaption>
-                    <dl>
-                        <dt>¿Dónde?</dt>
-                        <dl>Rural del Prado (acceso por Avenida Buschental)</dl>
-                    </dl>
-                </figcaption>
             </div>
-            <div class="col-md-4 left">
+            <div class="col-lg-4 col-md-6 col-sm-6 left">
                 <figure data-toggle="popover"  data-content="Buen clima!">
-                    <img src="img/icon2.jpg" alt="fecha">
+                    <img src="img/icon2.jpg" alt="fecha" class="left">
+                    <figcaption class="left">
+                        <dl>
+                            <dt>¿Cuándo?</dt>
+                            <dd>Sábado 17 y domingo 18 de noviembre a partir de las 17 horas</dd>
+                        </dl>
+                    </figcaption>
                 </figure>
-                <figcaption>
-                    <dl>
-                        <dt>¿Cuándo?</dt>
-                        <dl>Sábado 17 y domingo 18 de noviembre a partir de las 17 horas</dl>
-                    </dl>
-                </figcaption>
             </div>
-            <div class="col-md-4 left">
+            <div class="col-lg-4 left d-lg-block d-none d-md-none">
                 <figure data-toggle="popover"  data-content="Muchos puntos de venta!">
-                    <img src="img/icon3.jpg" alt="fecha">
+                    <img src="img/icon3.jpg" alt="venta" class="left">
+                    <figcaption class="left">
+                        <dl>
+                            <dt>Costo</dt>
+                            <dd>$500 (por día) en venta vía web <a href="http://reduts.com.uy/">Red UTS</a> o en locales de cobranza de <a href="http://www.redpagos.com.uy">Red Pagos</a> y en locales de <a href="https://www.tiendainglesa.com.uy/">Tienda Inglesa</a></dd>
+                        </dl>
+                    </figcaption>
                 </figure>
-                <figcaption>
-                    <dl>
-                        <dt>Costo</dt>
-                        <dl>$500 (por día) en venta vía web <a href="http://reduts.com.uy/">Red UTS</a> o en locales de cobranza de <a href="http://www.redpagos.com.uy">Red Pagos</a> y en locales de <a href="https://www.tiendainglesa.com.uy/">Tienda Inglesa</a></dl>
-                    </dl>
-                </figcaption>
             </div>    
         </article>
     </section>
+    <!-- seccion bandas -->
     <section class="fondo clearfix">
-        <div class="separador" id="bandas"> <h2>Bandas</h2></div>
+        <div class="separador d-none d-xs-none d-sm-block" id="bandas"> <h2>Bandas</h2></div>
+        <h2  class="d-none d-sm-none d-block d-xs-block" id="bandas2">Bandas</h2>
         <div class="container">
+            <!-- sabado 17 -->
             <div class="col-md-6 left posicion" data-toggle="tooltip" data-placement="left" title="Artistas y ubicaciones para el sábado 17">
                 <h3>Sábado 17</h3>
                 <div class="col-md-12 left">
@@ -152,65 +190,68 @@
                             <td>LOS ESPÍRITUS</td>
                         </tr>
                         <tr>     
-                            <td>Montevideo</td>
-                            <td>MALA RODRÍGUEZ</td>
+                            <td class="d-none d-sm-table-cell">Montevideo</td>
+                            <td class="d-none d-sm-table-cell">MALA RODRÍGUEZ</td>
                         </tr>
                         <tr>     
-                            <td>Montevideo</td>
-                            <td>CIRO Y LOS PERSAS</td>
+                            <td class="d-none d-sm-table-cell">Montevideo</td>
+                            <td class="d-none d-sm-table-cell">CIRO Y LOS PERSAS</td>
                         </tr>
                         <tr>     
-                            <td>Montevideo</td>
-                            <td>EL CUARTETO DE NOS</td>
+                            <td class="d-none d-sm-table-cell">Montevideo</td>
+                            <td class="d-none d-sm-table-cell">EL CUARTETO DE NOS</td>
                         </tr>
                         <tr>     
-                            <td>Sponsor</td>
-                            <td>LOS DOBERS</td>
+                            <td class="d-none d-sm-table-cell">Sponsor</td>
+                            <td class="d-none d-sm-table-cell">LOS DOBERS</td>
                         </tr>
                         <tr>     
-                            <td>Sponsor</td>
-                            <td>PAPINA DE PALMA</td>
+                            <td class="d-none d-sm-table-cell">Sponsor</td>
+                            <td class="d-none d-sm-table-cell">PAPINA DE PALMA</td>
+                        </tr>
+                    
+                        <tr>     
+                            <td class="d-none d-md-table-cell">Sponsor</td>
+                            <td class="d-none d-md-table-cell">MOUNTAIN CASTLES</td>
                         </tr>
                         <tr>     
-                            <td>Sponsor</td>
-                            <td>MOUNTAIN CASTLES</td>
+                            <td class="d-none d-md-table-cell">Sponsor</td>
+                            <td class="d-none d-md-table-cell">KIF</td>
                         </tr>
                         <tr>     
-                            <td>Sponsor</td>
-                            <td>KIF</td>
+                            <td class="d-none d-md-table-cell">Sponsor</td>
+                            <td class="d-none d-md-table-cell">SLOW BURNIN</td>
                         </tr>
                         <tr>     
-                            <td>Sponsor</td>
-                            <td>SLOW BURNIN</td>
+                            <td class="d-none d-md-table-cell">Sponsor</td>
+                            <td class="d-none d-md-table-cell">CHALA MADRE</td>
                         </tr>
                         <tr>     
-                            <td>Sponsor</td>
-                            <td>CHALA MADRE</td>
+                            <td class="d-none d-md-table-cell">Hip Hop</td>
+                            <td class="d-none d-md-table-cell">ZALO SOLO</td>
                         </tr>
                         <tr>     
-                            <td>Hip Hop</td>
-                            <td>ZALO SOLO</td>
+                            <td class="d-none d-md-table-cell">Hip Hop</td>
+                            <td class="d-none d-md-table-cell">ARQUERO</td>
                         </tr>
                         <tr>     
-                            <td>Hip Hop</td>
-                            <td>ARQUERO</td>
+                            <td class="d-none d-md-table-cell">Hip Hop</td>
+                            <td class="d-none d-md-table-cell">SANTI MOSTAFFA</td>
                         </tr>
                         <tr>     
-                            <td>Hip Hop</td>
-                            <td>SANTI MOSTAFFA</td>
+                            <td class="d-none d-md-table-cell">Hip Hop</td>
+                            <td class="d-none d-md-table-cell">AFC</td>
                         </tr>
                         <tr>     
-                            <td>Hip Hop</td>
-                            <td>AFC</td>
+                            <td class="d-none d-md-table-cell">Hip Hop</td>
+                            <td class="d-none d-md-table-cell">Kung-Fú OmBijam</td>
                         </tr>
-                        <tr>     
-                            <td>Hip Hop</td>
-                            <td>Kung-Fú OmBijam</td>
-                        </tr>
+                    
                     </table>
                 </div>
               
             </div>
+            <!-- domingo 18 -->
             <div class="col-md-6 left posicion" data-toggle="tooltip" data-placement="right" title="Artistas y ubicaciones para el domingo 18">
                 <h3>Domingo 18</h3>
                 <table style="width:100%" class="table table-hover">
@@ -231,76 +272,88 @@
                             <td>BUENOS MUCHACHOS</td>
                         </tr>
                         <tr>     
-                            <td>Montevideo</td>
-                            <td>LA TRIPLE NELSON</td>
+                            <td class="d-none d-sm-table-cell">Montevideo</td>
+                            <td class="d-none d-sm-table-cell">LA TRIPLE NELSON</td>
                         </tr>
                         <tr>     
-                            <td>Montevideo</td>
-                            <td>Titãs</td>
+                            <td class="d-none d-sm-table-cell">Montevideo</td>
+                            <td class="d-none d-sm-table-cell">Titãs</td>
                         </tr>
                         <tr>     
-                            <td>Montevideo</td>
-                            <td>FITO PAEZ</td>
+                            <td class="d-none d-sm-table-cell">Montevideo</td>
+                            <td class="d-none d-sm-table-cell">FITO PAEZ</td>
                         </tr>
                         <tr>     
-                            <td>Sponsor</td>
-                            <td>CACHALOTE</td>
+                            <td class="d-none d-sm-table-cell">Sponsor</td>
+                            <td class="d-none d-sm-table-cell">CACHALOTE</td>
+                        </tr>
+                        
+                        <tr>     
+                            <td class="d-none d-md-table-cell">Sponsor</td>
+                            <td class="d-none d-md-table-cell">EL BUENO, EL MALO Y EL FEO</td>
                         </tr>
                         <tr>     
-                            <td>Sponsor</td>
-                            <td>EL BUENO, EL MALO Y EL FEO</td>
+                            <td class="d-none d-md-table-cell">Sponsor</td>
+                            <td  class="d-none d-md-table-cell">SANTE LES AMIS</td>
                         </tr>
                         <tr>     
-                            <td>Sponsor</td>
-                            <td>SANTE LES AMIS</td>
+                            <td class="d-none d-md-table-cell">Sponsor</td>
+                            <td class="d-none d-md-table-cell">MÓNICA NAVARRO</td>
                         </tr>
                         <tr>     
-                            <td>Sponsor</td>
-                            <td>MÓNICA NAVARRO</td>
+                            <td class="d-none d-md-table-cell">Sponsor</td>
+                            <td class="d-none d-md-table-cell">FLORENCIA NUÑEZ</td>
                         </tr>
                         <tr>     
-                            <td>Sponsor</td>
-                            <td>FLORENCIA NUÑEZ</td>
+                            <td class="d-none d-md-table-cell">Sponsor</td>
+                            <td class="d-none d-md-table-cell">LA SANTA</td>
                         </tr>
                         <tr>     
-                            <td>Sponsor</td>
-                            <td>LA SANTA</td>
+                            <td class="d-none d-md-table-cell">Hip Hop</td>
+                            <td class="d-none d-md-table-cell">GULA</td>
                         </tr>
                         <tr>     
-                            <td>Hip Hop</td>
-                            <td>GULA</td>
+                            <td class="d-none d-md-table-cell">Hip Hop</td>
+                            <td class="d-none d-md-table-cell">JT & GoodFellas</td>
                         </tr>
                         <tr>     
-                            <td>Hip Hop</td>
-                            <td>JT & GoodFellas</td>
+                            <td class="d-none d-md-table-cell">Hip Hop</td>
+                            <td class="d-none d-md-table-cell">LA MCFUNKERA</td>
                         </tr>
                         <tr>     
-                            <td>Hip Hop</td>
-                            <td>LA MCFUNKERA</td>
+                            <td class="d-none d-md-table-cell">Hip Hop</td>
+                            <td class="d-none d-md-table-cell">LOS BUENOS MODALES</td>
                         </tr>
                         <tr>     
-                            <td>Hip Hop</td>
-                            <td>LOS BUENOS MODALES</td>
+                            <td class="d-none d-md-table-cell">Hip Hop</td>
+                            <td class="d-none d-md-table-cell">CROUPIER FUNK</td>
                         </tr>
                         <tr>     
-                            <td>Hip Hop</td>
-                            <td>CROUPIER FUNK</td>
+                            <td  class="d-none d-md-table-cell">Hip Hop</td>
+                            <td  class="d-none d-md-table-cell">LA TEJA PRIDE</td>
                         </tr>
-                        <tr>     
-                            <td>Hip Hop</td>
-                            <td>LA TEJA PRIDE</td>
-                        </tr>
+                    
                     </table>
             </div>
         </div>
     </section>
     <section>
-        <div class="separador" id="sorteo"><h2>Inscripción a sorteo</h2></div>
+        <!-- seccion sorteo -->
+        <div class="separador d-none d-xs-none d-sm-block" id="sorteo"><h2>Inscripción a sorteo</h2></div>
+        <h2  class="d-none d-sm-none d-block d-xs-block" id="sorteo2">Inscripción a sorteo</h2>
         <article class="container posicion clearfix">
-            <div class="col-md-7 left">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/3xX17WRLe_M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="col-lg-8 d-none d-lg-block left">
+                <!-- video sorteo -->
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/3xX17WRLe_M"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <div class="col-md-5 left">
+            <!-- info sorteo -->
+            <div class="d-none d-lg-none  d-md-block col-md-6 left">
+                <p>Montevideo Rock fue el primer gran festival, una oportunidad para que miles de jóvenes pudieran reunirse, expresarse, sentirse parte de algo que venía germinando en pequeños escenarios de diferentes puntos de la ciudad.</p>
+                 <p>La grilla incluía a las principales bandas locales de la época (Traidores, Los Tontos, Los Estómagos, La Tabaré, El Cuarteto de Nos, Zero) e invitados extranjeros como Sumo y Legião Urbana.
+                </p>
+            </div>
+            <!-- inscripcion sorteo -->
+            <div class="col-lg-4 col-md-6 left">
                 <h3>Sorteamos 20 entradas dobles</h3>
                 <div class="resaltado sorteo">
                         <small class="form-text">(*) Todos los campos son obligatorios. Publicaremos los resultados en la web oficial.</small>
@@ -312,17 +365,18 @@
                             <button type="submit" class="btn btn-primary">Inscribirme!</button>
                           </form>
                 </div>
+                <!-- modal web resultados -->
                         <!-- Boton Modal -->
-                        <a href="https://festivalconvivencia.uy/rock/" class="btn btn-primary btn-lg bootpopup" data-toggle="modal" data-target="#modal">
+                        <a href="https://festivalconvivencia.uy/rock/" class="btn btn-primary btn-lg bootpopup d-none d-xs-none d-md-block" data-toggle="modal" data-target="#modal">
                             Ver web oficial
                         </a>
                         
                         <!-- Modal -->
-                        <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modal">
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <div class="modal-body">
-                                        <iframe src="" id="modeliframe" style="zoom:0.60" frameborder="0" height="500" width="99.6%"></iframe>
+                                        <iframe src="#" id="modeliframe" style="zoom:0.60" height="500" width="99%"></iframe>
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
@@ -334,70 +388,80 @@
                         </article>
     </section>
     <section>
-        <div class="separador" id="novedades"><h2>Novedades</h2></div>
-        <article class="container posicion clearfix">
+        <!-- seccion novedades -->
+        <div class="separador d-none d-xs-none d-sm-block" id="novedades"><h2>Novedades</h2></div>
+        <h2  class="d-none d-sm-none d-block d-xs-block" id="novedades2">Novedades</h2>
+        <div class="container posicion clearfix d-none d-sm-none d-md-block">
+            <!-- tango -->
             <figure class="col-md-3 left">
                 <img src="img/noti1.jpg" alt="tango logo">
                 <figcaption>
                         <dl>
                             <dt>El Tango, patrimonio de tu ciudad</dt>
-                            <dl>Con actividades abiertas libres y gratuitas, más de 100 artistas de Uruguay y Argentina y gran producción artística, la Plaza Matriz será anfitriona de la primera edición de Montevideo Tango.</dl>
+                            <dd>Con actividades abiertas libres y gratuitas, más de 100 artistas de Uruguay y Argentina y gran producción artística, la Plaza Matriz será anfitriona de la primera edición de Montevideo Tango.</dd>
                         </dl>
                 </figcaption>
             </figure>
+            <!-- ubicacion -->
             <figure class="col-md-3 left">
-                <img src="img/noti2.jpg" alt="tango logo">
+                <img src="img/noti2.jpg" alt="ubicacion">
                 <figcaption>
                         <dl>
                             <dt>Montevideo de las Artes llega a Paso Molino</dt>
-                            <dl>El Festival Montevideo de las Artes cerrará su ciclo de espectáculos barriales en Paso Molino.</dl>
+                            <dd>El Festival Montevideo de las Artes cerrará su ciclo de espectáculos barriales en Paso Molino.</dd>
                         </dl>
                 </figcaption>
             </figure>
+            <!-- carrera -->
             <figure class="col-md-3 left">
-                <img src="img/noti3.jpg" alt="tango logo">
+                <img src="img/noti3.jpg" alt="carrera">
                 <figcaption>
                         <dl>
                             <dt>Inscripciones abiertas para correr la San Felipe y Santiago</dt>
-                            <dl>Están abiertas las preinscripciones para participar en la 24ª edición de la carrera San Felipe y Santiago, que se realizará el sábado 17 de noviembre por la rambla montevideana.</dl>
+                            <dd>Están abiertas las preinscripciones para participar en la 24ª edición de la carrera San Felipe y Santiago, que se realizará el sábado 17 de noviembre por la rambla montevideana.</dd>
                         </dl>
                 </figcaption>
             </figure>
+            <!-- mojo -->
             <figure class="col-md-3 left">
-                    <img src="img/noti4.jpg" alt="tango logo">
+                    <img src="img/noti4.jpg" alt="mojo">
                     <figcaption>
                             <dl>
                                 <dt>Viví Mojo, una fiesta que celebra la juventud</dt>
-                                <dl>Desde el 3 al 16 de noviembre tendrá lugar la primera bienal de la Juventud de Montevideo, con espectáculos en vivo, actividades, fotogalería, ferias y más, con entrada libre, en el Parque Rodó.</dl>
+                                <dd>Desde el 3 al 16 de noviembre tendrá lugar la primera bienal de la Juventud de Montevideo, con espectáculos en vivo, actividades, fotogalería, ferias y más, con entrada libre, en el Parque Rodó.</dd>
                             </dl>
                     </figcaption>
                 </figure>
-        </article>
-        <article class="container posicion clearfix">
-            <figure class="col-md-6 left">
-                <img src="img/noti5.jpg" alt="tango logo">
+            </div>
+            <!-- tropical -->
+        <div class="container posicion clearfix">
+            <figure class="col-md-6 col-sm-6 left">
+                <img src="img/noti5.jpg" alt="tropical">
                 <figcaption>
                         <dl>
                             <dt>Montevideo Tropical</dt>
-                            <dl>La grilla de Montevideo Tropical está integrada por reconocidas bandas como Karibe con K, Bola 8, Los Fatales, La Cumana, Los Negroni y El Super Hobby. También estarán Majo y la del 13, Vanesa Britos, Marcos Da Costa y Martín Quiroga. Será el 10 de noviembre desde las 16 horas en la Rural del Prado.</dl>
+                            <dd>La grilla de Montevideo Tropical está integrada por reconocidas bandas como Karibe con K, Bola 8, Los Fatales, La Cumana, Los Negroni y El Super Hobby. También estarán Majo y la del 13, Vanesa Britos, Marcos Da Costa y Martín Quiroga. Será el 10 de noviembre desde las 16 horas en la Rural del Prado.</dd>
                         </dl>
                 </figcaption>
             </figure>
-            <figure class="col-md-6 left">
-                <img src="img/noti6.jpg" alt="tango logo">
+            <!-- transito -->
+            <figure class="col-md-6 col-sm-6 left">
+                <img src="img/noti6.jpg" alt="transito">
                 <figcaption>
                         <dl>
                             <dt>Cortes y desvíos de tránsito</dt>
-                            <dl>Durante el fin de semana y el lunes 29 de octubre habrá cortes y desvíos de tránsito en diferentes tramos de Montevideo debido a obras, operativas y otras actividades en la vía pública.</dl>
+                            <dd>Durante el fin de semana y el lunes 29 de octubre habrá cortes y desvíos de tránsito en diferentes tramos de Montevideo debido a obras, operativas y otras actividades en la vía pública.</dd>
                         </dl>
                 </figcaption>
             </figure>
-        </article>
+        </div>
     </section>
+    <!-- seccion footer -->
     <section class="separador footer">
         <a href="#top"><div class="volver"><i class="fas fa-chevron-up"></i></div></a>
-        <p>ORT WebWorks 2018 &copy;</p>
+        <h6>ORT WebWorks 2018 &copy;</h6>
     </section>
+    <!-- scripts -->
     <!-- jQuery, Popper, Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
